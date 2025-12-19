@@ -7,7 +7,6 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from datetime import datetime
 from typing import List
-from collections import deque
 
 
 app = FastAPI(
